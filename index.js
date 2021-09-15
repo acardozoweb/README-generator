@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -36,6 +37,12 @@ const questions = () => {
             message: 'Provide testing intructions'
         },
         {
+            type: 'list',
+            name: 'license',
+            message: 'Select a use license',
+            choices: ['MIT', 'Apache 2.0', 'GPLv3', 'BSD-3', 'none']
+        },
+        {
             type: 'input',
             name: 'github',
             message: 'Enter your GitHub username'
@@ -50,7 +57,7 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 const writeToFile = (fileName, data) => {
-
+    
 }
 
 // TODO: Create a function to initialize app
@@ -65,3 +72,4 @@ const init = () => {
 
 // Function call to initialize app
 init();
+questions();

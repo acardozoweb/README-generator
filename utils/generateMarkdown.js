@@ -4,7 +4,7 @@ const renderLicenseBadge = (license) => {
   if (license) {
     return
   } else {
-    return "";
+    return `![License](https://img.shields.io/badge/License-${license}-<blue>)`;
   }
 };
 
@@ -43,37 +43,30 @@ const generateMarkdown = data => {
   ## Table of Contents
 
   * [Installation] (#installation)
+  To install program, run the following:
+
+  \`\`\`
+  ${data.installation}
+  \`\`\`
 
   * [Usage] (#usage)
   ${renderLicenseLink(data.license)}
 
-  * [Questions] (#questions)
-
-
-  ## Installation
-  To install program, run the following:
-  ``${data.installation}``
-
-
-  ## Usage
-  ${data.usage}
-  ${renderLicenseSection(data.license)}
-
-
   ## Contributions
   ${data.contribution}
 
-
   ## Testing
   To test the program, run the following:
-  ``${data.test}``
-
+  
+  \`\`\`
+  ${data.test}
+  \`\`\`
 
   ## Questions
-  To see more of my work, visit:
+  View more of my work at
   [${data.github}](https://github.com/${data.github}/)
 
-  For any questions, email me:
+  Email me with any questions at
   ${data.email}
   
 `;
