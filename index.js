@@ -40,7 +40,7 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'Select a use license',
-            choices: ['MIT', 'Apache 2.0', 'GPLv3', 'BSD-3', 'none']
+            choices: ['none', 'MIT',  'BSD-2', 'BSD-3', 'Apache 2.0' ]
         },
         {
             type: 'input',
@@ -55,21 +55,21 @@ const questions = () => {
     ])
 }
 
-// TODO: Create a function to write README file
+// function to write README file
 const writeToFile = (fileName, data) => {
-
+    return fs.writeFileSync(fileName, data)
 }
 
-// TODO: Create a function to initialize app
+// function to initialize app
 const init = () => {
     inquirer.prompt(questions)
     .then((data) => {
         console.log("Generating README...");
-        writeToFile();
+        return writeToFile('./dist/README.md', generateMarkdown(data));
     })
     .catch (err => console.log(err));
 };
 
 // Function call to initialize app
 init();
-questions();
+
