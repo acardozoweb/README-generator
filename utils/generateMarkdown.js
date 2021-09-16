@@ -26,12 +26,12 @@ const renderLicenseSection = (license) => {
   } else {
     return `## License
     
-    Used under the ${data.license} license.`
+  This app is covered under the ${license} license.`
   }
 }
 
 // function to generate markdown for README
-const generateMarkdown = data => {
+let generateMarkdown = data => {
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
@@ -46,36 +46,37 @@ const generateMarkdown = data => {
   * [Installation] (#installation)
 
   * [Usage] (#usage)
+
   ${renderLicenseLink(data.license)}
 
-  * Contributions
+  * [Contributions] (#contributions)
 
   * [Testing] (#testing)
 
   * [Questions] (#questions)
 
   ## Installation
-  To install program, run the following:
 
-  \`\`\`
+  To install program, run the following command:
+
   ${data.installation}
-  \`\`\`
+ 
 
   ## Usage
 
   ${data.usage}
   ${renderLicenseSection(data.license)}
 
+
   ## Contributions
 
   ${data.contribution}
 
   ## Testing
-  Run this command to test the app::
+  Run this command to test the app:
   
-  \`\`\`
   ${data.test}
-  \`\`\`
+ 
 
   ## Questions
 
