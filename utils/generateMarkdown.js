@@ -46,9 +46,7 @@ let generateMarkdown = data => {
   * [Installation] (#installation)
 
   * [Usage] (#usage)
-
   ${renderLicenseLink(data.license)}
-
   * [Contributions] (#contributions)
 
   * [Testing] (#testing)
@@ -57,7 +55,7 @@ let generateMarkdown = data => {
 
   ## Installation
 
-  To install program, run the following command:
+  To install the program, run the following command:
 
   ${data.installation}
  
@@ -73,7 +71,7 @@ let generateMarkdown = data => {
   ${data.contribution}
 
   ## Testing
-  Run this command to test the app:
+  To test the app, run the following command:
   
   ${data.test}
  

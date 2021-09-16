@@ -12,10 +12,8 @@
   * [Installation] (#installation)
 
   * [Usage] (#usage)
-
   
 * [License] (#license)
-
 
   * [Contributions] (#contributions)
 
@@ -25,14 +23,14 @@
 
   ## Installation
 
-  To install program, run the following command:
+  To install the program, run the following command:
 
   npm install
  
 
   ## Usage
 
-  watch this walkthrough video
+  Watch the walkthrough video at this link:
   ## License
     
   This app is covered under the MIT license.
@@ -40,10 +38,10 @@
 
   ## Contributions
 
-  feel free to clone or fork to your own repository
+  Feel free to fork or clone to your own repo
 
   ## Testing
-  Run this command to test the app:
+  To test the app, run the following command:
   
   node index.js
  
