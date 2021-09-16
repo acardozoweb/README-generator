@@ -1,36 +1,37 @@
-# project
+# test run 4
 
   ![License](https://img.shields.io/badge/License-MIT-<blue>)
 
   ## Description
 
-  desc
-
+  testing readmegenerator app
 
   ## Table of Contents
 
-  * [Installation] (#installation)
+  * [Installation](#installation)
 
-  * [Usage] (#usage)
+  * [Usage](#usage)
+
   
 * [License] (#license)
 
-  * [Contributions] (#contributions)
 
-  * [Testing] (#testing)
+  * [Contributions](#contributions)
 
-  * [Questions] (#questions)
+  * [Testing](#testing)
+
+  * [Questions](#questions)
 
   ## Installation
 
   To install the program, run the following command:
 
-  npm i
+  npm install
  
 
   ## Usage
 
-  watch walkthrough video
+  watch the walkthrough video
   ## License
     
   This app is covered under the MIT license.
@@ -38,7 +39,7 @@
 
   ## Contributions
 
-  clone or fork to your repo
+  fork or clone to your own repo
 
   ## Testing
   To test the app, run the following command:

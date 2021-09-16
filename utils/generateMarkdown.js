@@ -40,18 +40,19 @@ let generateMarkdown = data => {
 
   ${data.description}
 
-
   ## Table of Contents
 
-  * [Installation] (#installation)
+  * [Installation](#installation)
 
-  * [Usage] (#usage)
+  * [Usage](#usage)
+
   ${renderLicenseLink(data.license)}
-  * [Contributions] (#contributions)
 
-  * [Testing] (#testing)
+  * [Contributions](#contributions)
 
-  * [Questions] (#questions)
+  * [Testing](#testing)
+
+  * [Questions](#questions)
 
   ## Installation
 
