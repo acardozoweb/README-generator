@@ -14,7 +14,7 @@ const renderLicenseLink = license => {
   if (license === "none") {
     return "";
   } else {
-    return `\n* [License] (#license)\n`
+    return `\n  * [License](#license) \n`
   }
 };
 

@@ -1,10 +1,10 @@
-# test run 4
+# test run 5
 
   ![License](https://img.shields.io/badge/License-MIT-<blue>)
 
   ## Description
 
-  testing readmegenerator app
+  testing readme generator app
 
   ## Table of Contents
 
@@ -13,7 +13,7 @@
   * [Usage](#usage)
 
   
-* [License] (#license)
+  * [License](#license) 
 
 
   * [Contributions](#contributions)
@@ -39,7 +39,7 @@
 
   ## Contributions
 
-  fork or clone to your own repo
+  fork or clone this to your own repo
 
   ## Testing
   To test the app, run the following command:
@@ -50,7 +50,7 @@
   ## Questions
 
   View more of my work at
-  [acardozoweb](https://github.com/acardozoweb/)
+  [acardozo](https://github.com/acardozo/)
 
   Email me with any questions at
   anthonyccardozo@gmail.com
