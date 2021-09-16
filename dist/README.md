@@ -1,10 +1,10 @@
-# Project
+# project
 
   ![License](https://img.shields.io/badge/License-MIT-<blue>)
 
   ## Description
 
-  this is a description of the project
+  desc
 
 
   ## Table of Contents
@@ -25,12 +25,12 @@
 
   To install the program, run the following command:
 
-  npm install
+  npm i
  
 
   ## Usage
 
-  Watch the walkthrough video at this link:
+  watch walkthrough video
   ## License
     
   This app is covered under the MIT license.
@@ -38,7 +38,7 @@
 
   ## Contributions
 
-  Feel free to fork or clone to your own repo
+  clone or fork to your repo
 
   ## Testing
   To test the app, run the following command:
